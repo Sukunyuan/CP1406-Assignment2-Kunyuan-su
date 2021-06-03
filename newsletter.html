@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="{CHARSET}">
+		<title>Petite Treats-Newsletter</title>
+		<link href="CSS/decorate.css" rel="stylesheet" type="text/css" media="all" />
+		<script type= "text/javascript" src="js-form.js"></script> 
+		<style>
+			body {
+				background-image: url(images/newbg.png);
+				background-repeat:no-repeat;
+				background-size: cover;
+			}
+		</style>
+
+	</head>
+
+	<body>
+		<div id="nav">
+			<ul>
+				<li><a href="index.html" title="">Homepage</a></li>
+				<li><a href="aboutme.html" title="">About Me</a></li>
+				<li><a href="menu.html" title="">Menu</a></li>
+				<li><a href="special.html" title="">Specials Page</a></li>
+				<li><a href="newsletter.html" title="">Newsletter</a></li>
+				<li><a href="plan.html" title="">Plan</a></li>
+				
+			</ul>
+		</div>
+		<div id="column">
+			<h1>Newsletter Signup</h1>
+			<h2>Please enter your information:</h2>
+		</div>
+		<div id="column3">
+			<img src="images/cookie.jpg" id="image" />
+		</div>
+		<div id="column">
+			<form name="Form" action="action_page.php" onsubmit="return validateForm()" method="post">
+				<table width="500">
+					<tr>
+						<td>Sex:</td>
+						<td>
+							<input type="radio" name="sex" value="male"/><img src="images/male.jpg" id="seximage"/> Male
+							<input type="radio" name="sex" value="female"/><img src="images/female.jpg" id="seximage"/> Female
+						</td>
+					</tr>
+					<tr>
+						<td>Name:</td>
+						<td><input type="text" name="name" id="name" placeholder="Full name"/></td>
+					<tr>
+						<td>Email:</td>
+						<td><input type="email" name="email" id="email" placeholder="Enter your email"/ ></td>
+					</tr>
+					<tr>
+						<td>Product interests:</td>
+						<td>
+							<select name="product">
+								<option value="">--</option>
+								<option value="Cake">Cake</option>
+								<option value="Biscuit">Biscuit</option>
+								<option value="Cookie">Cookie</option>
+								<option value="Birthday Cake">Birthday Cake</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>Birthday:</td>
+						<td><input type="text" name="day" id="day"/>/<input type="text" name="month" id="month"/></td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><input type="checkbox" name="condition"/>I agree to all the terms</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><input type="checkbox" name="condition"/>I agree to receive email from company</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td><input type="submit" value="Submit" /></td>
+					</tr>
+				</table>
+			</form>		
+		</div>
+		<div style="text-align: left;">
+			<ul>
+				<li>
+					<a href="index.html" title="">Homepage</a>
+				</li>
+				<li>
+					<a href="aboutme.html" title="">About Me</a>
+				</li>
+				<li>
+					<a href="menu.html" title="">Menu</a>
+				</li>
+				<li>
+					<a href="special.html" title="">Specials Page</a>
+				</li>
+				<li><a href="newsletter.html" title="">Newsletter</a></li>
+				<li><a href="plan.html" title="">Plan</a></li>
+				
+		
+			</ul>
+			<hr>
+			<address>
+				Contact: 0455 5555 555</br>
+				Catering: 0433 3333 333</br>
+				Address: 123 Prize Lane, Kirwan, QLD .
+			</address>
+       
+		</div>
+	</body>
+</html> 
