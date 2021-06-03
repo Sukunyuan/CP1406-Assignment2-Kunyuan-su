@@ -1,0 +1,166 @@
+#column{
+	margin-top:60px;
+	margin-left:50px;
+	float:left;
+	width:55%;
+}
+#column3{
+	margin-top:200px;
+	margin-right:50px;
+	float:right;
+	width:33%
+}
+
+#image{
+	margin-right:100px;
+	text-align:center;
+	height:300px;
+	width:500px;
+}
+#seximage{
+	padding:0;
+	margin:0;
+	height:20px;
+	width:20px;
+}
+#nav ul{
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+ 	overflow: hidden;
+  	background-color: #696969;
+}
+#nav li{
+ 	float: left;
+	border-right: 1px solid #bbb;
+}
+.byline {
+    	letter-spacing: 0.15em;
+   	text-transform: uppercase;
+    	font-weight: 400;
+    	font-size: 0.90em;
+    	color: #48D1CC;
+	margin-top:0;
+}
+.active {
+  background-color:#DCDCDC;
+}
+#nav li:last-child{
+	border-right: none;
+}
+#nav li a {
+  	display: block;
+  	color: white;
+  	text-align: center;
+  	padding: 14px 87px;
+  	text-decoration: none;
+}
+
+#nav ul li a:hover{
+	background-color:#00FFFF;
+}
+h1 {
+	font-family: "Lucida Console", "Courier New", monospace;
+	color:#D2691E;
+	font-size:50px;
+	text-transform: uppercase;
+}
+	
+.logo{
+	border: solid;
+	border-color: red;
+	margin-top: 30px;
+	width:50%;
+	height:150px;
+}   
+.image
+    {
+        display: inline-block;
+        padding: 5px;
+        width: 100%;	
+    }
+.image2
+    {
+        display: inline-block;
+        padding: 20px;
+        width: 80%;
+        height: 500px;	
+    
+    }
+.column{
+	border-style:solid;
+	border-radius:20px;
+	background-color: Tomato;
+	}
+.image-l{
+	width:33%;
+	height:500px;
+	border-style:groove;
+	text-align:left;
+}
+.image-r{
+	width:33%;
+	height:500px;
+	border-style:groove;
+	text-align:right;
+}
+.column1{
+	text-align:center;
+	padding:10px;
+	margin:10px;
+}
+#column1{
+	text-align:center;
+	padding:10px;
+	margin:10px;
+}
+#column1 ul{
+	list-style-type:none;
+}
+address {font-size: 0.6em; font-style:normal; text-align:center; text-transform:uppercase}
+.column2{
+	margin-left:50px;
+	padding-left:30px;
+}
+#column2{
+	margin-left:50px;
+	padding-left:50px;
+}
+.image-l1{
+	margin-left:120px;
+	width:40%;
+	height:500px;
+	border-style:solid;
+	border-color:red;
+	text-align:left;
+}
+.image-r1{
+	margin-right:120px;
+	width:40%;
+	height:500px;
+	border-style:solid;
+	border-color:red;
+	text-align:right;
+}
+.column3{
+	margin:auto;
+	padding:auto;
+}
+.column4{
+	margin-top:130px;
+	color:red;
+	font-size:3em;
+	font-family:"Times New Roman", Times, serif;
+}
+.column5{
+	border-style:solid;
+	border-radius:20px;
+	background-color: yellow;
+	text-align:center;
+	}
+.image3{
+	width:40%;
+	border-style:solid;
+	border-color:green;
+	
+}
